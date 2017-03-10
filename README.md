@@ -2,8 +2,8 @@
 This is a basic Techlahoma logo element for nodecg and OBS. 
 
 ## Demos
-![36N Demo](//imgur.com/oYCNs04.gif)
-![SS46 Demo](//i.imgur.com/BHuJCb7.gif)
+![36N Demo](https://imgur.com/oYCNs04.gif)
+![SS46 Demo](https://i.imgur.com/BHuJCb7.gif)
 
 ## Installation
 
