@@ -11,5 +11,5 @@ This is a basic Techlahoma logo element for nodecg and OBS.
 2. Clone this repo into the `/bundles` folder of your NodeCG
 
 ## TODO
- [] Add sounds
- [] Rework animations to use purely CSS & timers
+ - [] Add sounds
+ - [] Rework animations to use purely CSS & timers
