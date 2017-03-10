@@ -1,0 +1,42 @@
+{
+	"name": "techlahoma-logo",
+	"version": "0.1.0",
+	"description": "hides and shows Techlahoma Logo",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": ["nodecg", "techlahoma"],
+	"author": "Jonathan Yarbor",
+	"license": "ISC",
+
+	"nodecg": {
+		"compatibleRange": "~0.8.9",
+		"dashboardPanels": [
+			{
+				"name": "techlahoma-logo",
+				"title": "Techlahoma Logo",
+				"width": 3,
+				"file": "index.html",
+				"headerColor": "#273034"
+			}
+		],
+		"graphics": [
+			{
+				"file": "index.html",
+				"width": 780,
+				"height": 120
+			}
+		],
+		"soundCues": [
+			{
+				"name": "techlahoma-logo-slidein",
+				"defaultVolume": 50
+			},
+			{
+				"name": "techlahoma-logo-slideout",
+				"defaultVolume": 50
+			}
+		]
+	}
+}

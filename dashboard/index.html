@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="import" href="components/paper-button/paper-button.html">
+		<link rel="import" href="components/paper-checkbox/paper-checkbox.html">
+		<link rel="import" href="components/paper-dropdown-menu/paper-dropdown-menu.html">
+		<link rel="import" href="components/paper-listbox/paper-listbox.html">
+		<link rel="import" href="components/paper-item/paper-item.html">
+	</head>
+	<body>
+		<div class="layout horizontal" style="margin-bottom: 8px;">
+			<paper-button id="showLogo" class="nodecg-success flex update" disabled>Show Logo</paper-button>
+			<paper-button id="hideLogo" class="nodecg-danger flex update">Hide Logo</paper-button>
+			<paper-button id="runLocation" class="nodecg-info flex update">Animate</paper-button>
+		</div>
+		<div class="layout horizontal" style="margin-bottom: 8px;">
+			<!-- <paper-dropdown-menu id="location" on-iron-select="locationChange" label="Location" style="margin-right: 15px">
+				<paper-listbox class="dropdown-content" selected="1">
+					<paper-item role="button" value="okc_ss46">OKC - SS46</paper-item>
+					<paper-item role="button" value="tulsa_36n">Tulsa - 36N</paper-item>
+				</paper-listbox>
+			</paper-dropdown-menu> -->
+			<select id="location" style="padding:10px; margin-right: 15px;">
+				<option value="okc_ss46">Starspace46</option>
+				<option value="tulsa_36n">36 Degrees North</option>
+			</select>
+   			<label for="showDonors" style="margin-right:5px">Auto-run </label><paper-checkbox id="autorunLocation" class="flex donors" checked="true"></paper-button>
+  		</div>
+		<script type="text/javascript" src="components/jquery/dist/jquery.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,50 @@
+html, body {margin:0;padding:0;height:100%; overflow: hidden;}
+
+
+.widgetcontainer {
+	display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#techlahomaLogo{
+	display: inline-block;
+	background: #fff url(images/techlahoma.png) center center no-repeat;
+	border-radius: 10px;
+	margin-right: 25px;
+	width: 375px;
+	height: 120px;
+}
+#techlahomaLocation{
+	border-radius: 10px;
+	display: inline-block;
+	width: 0;
+	height: 120px;
+	overflow: hidden;
+}
+
+#techlahomaLocationCanvas{
+	width: 375px;
+	height: 120px;
+}
+#techlahomaLocation.okc_ss46{background: url(images/okc_ss46/bg.png) 0 0 repeat-x; }
+#techlahomaLocation.okc_ss46 #techlahomaLocationCanvas{background: url(images/okc_ss46/logo.png) center center no-repeat; }
+
+#techlahomaLocation.tulsa_36n{background: url(images/tulsa_36n/bg.png) 0 0 repeat-x; }
+#techlahomaLocation.tulsa_36n #techlahomaLocationCanvas{background: url(images/tulsa_36n/logo.png) center center no-repeat; }
+
+.moveBg{
+	animation: slidein 15s;
+}
+
+@keyframes slidein {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 100% 0;
+	}
+}
